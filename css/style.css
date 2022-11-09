@@ -90,10 +90,10 @@ img{
 .logo-black{
     color:var(--logo-black-color) ;
 }
-.site-nav .link-head:not(:last-child){
+.site-nav .head__link:not(:last-child){
     margin-right: 50px;
 }
-.link-head {
+.head__link{
     position: relative;
 
     padding: 0;
@@ -130,10 +130,10 @@ img{
 .site-nav .link {
     color: var(--title-color);     
 }  
-.head-list .mail:not(:last-child){
+.head__list .head__mail:not(:last-child){
     margin-right: 50px;
 }
-.head-list .mail{
+.head__list .head__mail{
     display: flex;
     align-items: center;
 }
@@ -162,7 +162,7 @@ img{
 .link:focus .icon-mobil{
     fill: var(--logo-blue-color);
 }
-.head-list{
+.head__list{
     display: flex;
     align-items: center;    
 }
@@ -170,7 +170,7 @@ img{
     display: flex;
     justify-content: space-between;    
 }
-.nav-logo{
+.head__logo{
     display:flex;
 }
 .border-head{
@@ -180,7 +180,7 @@ img{
 
 
 /* Головний текст */
-.titel-service{
+.service__titel{
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
@@ -191,12 +191,12 @@ img{
     margin-top:0;
     margin-bottom: 30px;
 }
-.block-service{
+.service__block{
     display: flex;
     flex-direction: column;    
 }
 
-.bg-service{
+.service__bg{
     max-width: 1600px;
     
     margin-left: auto;
@@ -233,7 +233,8 @@ img{
     font-size: 16px;
     line-height: 30px;
 }
-.list .title{
+.list .title,
+.features__title{
     color: var(--title-color);
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -241,19 +242,19 @@ img{
     margin-top: 0;
     margin-bottom: 10px;       
 }
-.title-features {
+.features {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.features{
+.features__list{
     display: flex;
     justify-content: space-between;
 }
-.icon-features{
+.features__icon{
     height: 70px;
     width: 70px;    
 }
-.border-icon{
+.features__icon-border{
     border: none;
     border-radius: 4px;
     background-color: var(--button-bg-port);    
@@ -265,7 +266,8 @@ img{
     margin-bottom: 30px;
     
 }
-.list .text{
+.list .text,
+.features__text{
     line-height: 1.71;
     letter-spacing: 0.03em;
 
@@ -274,8 +276,8 @@ img{
 
     width: 270px;
 }
-.work .title,
-.team .title{
+.work__title,
+.team__title{
     color: var(--title-color);
     font-size: 36px;
     line-height: 1.16;
@@ -285,14 +287,14 @@ img{
     margin-top: 0;
     margin-bottom: 50px;    
 }
-.work .list{
+.work__list{
     display: flex;
     justify-content: space-between;
 }
-.list-work{
+.work__list-icon{
     position: relative;
 }
-.description-work{
+.work__description{
     display: flex;
     font-weight: 700;    
     line-height: 16px;    
@@ -313,7 +315,7 @@ img{
     background-color: rgba(47, 48, 58, 0.8);
     color: var(--white-color);
 }
-.team .list{
+.team__list{
     display: flex;
     justify-content:space-between ;
 }
@@ -325,23 +327,23 @@ img{
 .team{
     padding-bottom: 94px;    
 }
-.title-name{
+.team__name{
     color: var(--title-color);
     font-weight: 500;     
     
     margin-bottom: 10px;    
 }
-.team .text,
-.title-name{    
+.team__text,
+.team__name{    
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-align: center;
 }
-.team .text{
+.team__text{
     margin-bottom: 16px;
 }
-.team-name{
+.team__information{
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -357,7 +359,7 @@ img{
     padding-top: 94px;
     padding-bottom: 94px;
 }
-.title-client{        
+.client__title{        
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -672,20 +674,20 @@ img{
     background-color:#2196F3 ;    
 }
 /* Клієнти */
-.action-client{
+.client__action{
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
 }
-.icon-client{
+.client__icon{
     fill:var(--icon-color);
     width: 106px;
     height: 60px;  
     
     transition:fill 250ms var(--time-function);
 }
-.link-client{
+.client__link{
     display: flex;
     border: 1px solid #AFB1B8;
     height: 92px;
@@ -697,15 +699,15 @@ img{
 
     transition: border-color 250ms var(--time-function);
 }
-.link-client:hover,
-.link-client:focus{
+.client__link:hover,
+.client__link:focus{
     border-color:var(--logo-blue-color);
 }
-.link-client:hover .icon-client,
-.link-client:focus .icon-client{
+.client__link:hover .client__icon,
+.client__link:focus .client__icon{
     fill: var(--logo-blue-color);
 }
-.list-client:not(:last-child){
+.client__list:not(:last-child){
     margin-right: 30px;
 }
 /* Modal window */
