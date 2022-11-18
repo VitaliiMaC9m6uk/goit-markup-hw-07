@@ -1,0 +1,18 @@
+.logo{
+    font-family:$font-raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.logo--blue {
+    color: var(--logo-blue-color);
+}
+
+.logo--black {
+    color: var(--logo-black-color);
+}
+.logo--white {
+    color: var(--white-color);
+}

@@ -1,0 +1,56 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.container-modal {
+    width: 448px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+body {
+    font-family: Roboto, sans-serif;
+    color: var(--text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+address {
+    font-style: normal;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav .link.current {
+    color: var(--logo-blue-color);
+}
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+img {
+    display: block;
+    max-width: 100%;
+}

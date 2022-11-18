@@ -1,0 +1,53 @@
+.service__titel {
+    color: var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.service__block {
+    display: flex;
+    flex-direction: column;
+}
+.service__bg {
+    max-width: 1600px;
+
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #C4C4C4;
+    background-image:
+        linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/bg-people.jpg);
+
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service__button {
+    display: inline-block;
+    margin: 0 auto;
+    min-width: 216px;
+    height: 50px;
+    background-color: var(--logo-blue-color);
+    color: var(--white-color);
+    border-color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+}

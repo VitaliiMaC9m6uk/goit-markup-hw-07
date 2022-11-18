@@ -84,10 +84,10 @@ img{
     padding-top: 24px;
     padding-bottom: 25px;
 }
-.logo-blue{
+.logo--blue{
     color:var(--logo-blue-color) ;
 }
-.logo-black{
+.logo--black{
     color:var(--logo-black-color) ;
 }
 .site-nav .head__link:not(:last-child){
@@ -173,7 +173,7 @@ img{
 .head__logo{
     display:flex;
 }
-.border-head{
+.border-hecolorad{
     background-color: var(--white-color);    
     border-bottom: 1px solid #ECECEC;
 }
@@ -216,7 +216,7 @@ img{
     background-repeat: no-repeat; 
     background-size: cover;   
 }
-.button{
+.service__button{
     display: inline-block;
     margin: 0 auto;
     min-width: 216px;
@@ -231,7 +231,7 @@ img{
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.87;
 }
 .list .title,
 .features__title{
@@ -373,7 +373,7 @@ img{
 
 }
 /* Подвал */
-.logo-white{
+.logo--white{
     color: var(--white-color);
 }
 .bg-footer{
@@ -533,7 +533,7 @@ img{
     0px 1px 2px rgba(0, 0, 0, 0.08), 
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-.title-collection{    
+.collection__title{    
     color: var(--title-color);
     font-size: 18px;
     line-height: 2;
@@ -542,7 +542,7 @@ img{
     margin-bottom: 4px;
     padding-left: 24px;
 }
-.text-collection{
+.collection__text{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.9;
@@ -551,7 +551,7 @@ img{
     margin-bottom: 20px;
     padding-left: 24px;
 }
-.list-collection{
+.collection__list{
     display: flex;
     flex-wrap: wrap;  
     gap:30px;
@@ -561,8 +561,8 @@ img{
 
     overflow: hidden;
 }
-.link-collection:hover .description-collection,
-.link-collection:focus .description-collection{
+.collection__link:hover .collection__description,
+.collection__link:focus .collection__description{
     opacity: 1;
     transition:opacity 250ms var(--time-function),
     transform 250ms var(--time-function);
@@ -570,7 +570,7 @@ img{
     /* transform: rotate(0deg); */
     
 }
-.description-collection{
+.collection__description{
     display: block;
     position: absolute;
     top: 0;
@@ -587,7 +587,7 @@ img{
     transform: rotate(180deg);
     transition: transform 500ms var(--time-function); */
 }
-.text-image{
+.collection__text-image{
     padding: 63px 24px;
     margin:0;
     font-size: 18px;
@@ -599,7 +599,7 @@ img{
 .decoration-link{
     text-decoration: none;
     }
-.border-col{    
+.collection__border{    
     border: 1px solid #EEEEEE;
     background: #FFFFFF;
     border-top-color:transparent;
@@ -608,14 +608,14 @@ img{
     padding-top:94px;
     padding-bottom:94px;
 }
-.img-collection{
+.collection__img{
     display:block;
 }
-.link-collection{
+.collection__link{
     transition: box-shadow 250ms var(--time-function);
 }
-.link-collection:hover,
-.link-collection:focus{
+.collection__link:hover,
+.collection__link:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
      0px 4px 4px rgba(0, 0, 0, 0.06),
      1px 4px 6px rgba(0, 0, 0, 0.16);    
