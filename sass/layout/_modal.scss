@@ -40,6 +40,9 @@
     padding: 40px;
 }
 .btn-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: fixed;
     top: 14px;
     right: 14px;
@@ -55,15 +58,10 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #FFFFFF;
 }
-.icon-close {
-    position: fixed;
-    top: 14px;
-    right: 14px;
+.icon-close {    
     width: 18px;
     height: 18px;
-    fill: #000000;
-
-    padding: 6px;
+    fill: #000000;    
 }
 .btn-close:hover .icon-close,
 .btn-close:focus .icon-close {
@@ -144,28 +142,27 @@
 .link-form {
     color: rgba(33, 150, 243, 1);
 }
-.btn-form {
-    transform: translate(-50%, -50%);
-    bottom: 40px;
-    left: 50%;
-    position: fixed;
-    width: 200px;
-    height: 50px;
-
+.btn-form {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding-top: 10px;
+    padding-right: 55px;
+    padding-bottom: 10px;
+    padding-left: 55px;
     font-family: $font-roboto;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
-
+    line-height: 1.87;
     letter-spacing: 0.06em;
-
-    color: #FFFFFF;
-    background: #2196F3;
+    
+    color: $white-color;
+    background-color: $blue-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: none;
-    cursor: pointer;
+    cursor: pointer;    
 }
 .checkbox{
     font-family: 'Roboto';
