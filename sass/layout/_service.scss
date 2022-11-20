@@ -1,5 +1,5 @@
 .service__titel {
-    color: var(--white-color);
+    color: $white-color;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -39,13 +39,13 @@
     margin: 0 auto;
     min-width: 216px;
     height: 50px;
-    background-color: var(--logo-blue-color);
-    color: var(--white-color);
+    background-color: $blue-color;
+    color: $white-color;
     border-color: transparent;
     border-radius: 4px;
     cursor: pointer;
 
-    font-family: 'Roboto';
+    font-family: $font-roboto;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

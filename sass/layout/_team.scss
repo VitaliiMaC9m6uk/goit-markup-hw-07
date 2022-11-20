@@ -1,55 +1,57 @@
 .team {
     background-color: #F5F4FA;
     padding-top: 94px;
-}
-.work,
-.team {
     padding-bottom: 94px;
-}
-.work__title,
-.team__title {
-    color: var(--title-color);
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
-    letter-spacing: 0.03em;
 
-    margin-top: 0;
-    margin-bottom: 50px;
+    &__title {
+            color: $title-color;
+            font-size: 36px;
+            line-height: 1.16;
+            text-align: center;
+            letter-spacing: 0.03em;
+    
+            margin-top: 0;
+            margin-bottom: 50px;
+             }
+    &__list {
+            display: flex;
+            justify-content: space-between;
+        }
+    &__information {
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    &__text {
+            margin-bottom: 16px;
+        }
+    
+    &__text,
+    &__name {
+            font-size: 16px;
+            line-height: 1.19;
+            letter-spacing: 0.03em;
+            text-align: center;
+        }
+    
+    &__name {
+            color: $title-color;
+            font-weight: 500;
+    
+            margin-bottom: 10px;
+        }
 }
-.team__list {
-    display: flex;
-    justify-content: space-between;
-}
+
 
 .one-of-team {
-    background-color: var(--white-color);
+    background-color: $white-color;
     border-radius: 0px 0px 4px 4px;
 
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
         0px 1px 1px 0px rgba(0, 0, 0, 0.14),
         0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-.team__information {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-.team__text {
-    margin-bottom: 16px;
-}
-.team__text,
-.team__name {
-    font-size: 16px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    text-align: center;
-}
-.team__name {
-    color: var(--title-color);
-    font-weight: 500;
 
-    margin-bottom: 10px;
-}
+
 .action {
     display: flex;
     padding: 0;
@@ -66,25 +68,25 @@
 }
 .link-icon:hover .icon-social,
 .link-icon:focus .icon-social {
-    fill: #FFFFFF;
+    fill: $white-color;
 }
 .link-icon:hover,
 .link-footer:hover,
 .link-icon:focus,
 .link-footer:focus {
-    background-color: #2196F3;
+    background-color: $blue-color;
 }
 .icon-social,
 .icon-footer {
     height: 20px;
     width: 20px;
-    fill: var(--white-color);
+    fill: $white-color;
 }
 
 .icon-social {
-    fill: var(--icon-color);
+    fill: $icon-bg-color;
 
-    transition: fill 250ms var(--time-function);
+    transition: fill 250ms $time-function;
 }
 .link-icon,
 .link-footer {
@@ -97,5 +99,5 @@
     align-items: center;
     justify-content: center;
 
-    transition: background-color 250ms var(--time-function);
+    transition: background-color 250ms $time-function;
 }

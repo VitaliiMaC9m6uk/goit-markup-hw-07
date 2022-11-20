@@ -1,6 +1,6 @@
 .logo,
 .logo-footer {
-    font-family: 'Raleway';
+    font-family: $font-raleway;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
@@ -15,11 +15,11 @@
 }
 
 .logo--blue {
-    color: var(--logo-blue-color);
+    color: $blue-color;
 }
 
 .logo--black {
-    color: var(--logo-black-color);
+    color: $black-logo-color;
 }
 
 .site-nav .head__link:not(:last-child) {
@@ -44,13 +44,13 @@
     width: 100%;
     height: 4px;
     border-radius: 2px;
-    background-color: var(--logo-blue-color);
+    background-color: $blue-color;
 }
 
 .mail-link,
 .tel-link,
 .site-nav .link {
-    color: var(--text-color);
+    color: $text-color;
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -59,11 +59,11 @@
     padding-top: 32px;
     padding-bottom: 32px;
 
-    transition: color 250ms var(--time-function);
+    transition: color 250ms $time-function;
 }
 
 .site-nav .link {
-    color: var(--title-color);
+    color: $title-color;
 }
 
 .head__list .head__mail:not(:last-child) {
@@ -81,9 +81,9 @@
     width: 16px;
     margin-right: 10px;
 
-    fill: var(--text-color);
+    fill: $text-color;
 
-    transition: fill 250ms var(--time-function);
+    transition: fill 250ms $time-function;
 }
 
 .icon-mobil {
@@ -93,14 +93,14 @@
 
 .link:hover,
 .link:focus {
-    color: var(--logo-blue-color);
+    color: $blue-color;
 }
 
 .link:hover .icon-mail,
 .link:hover .icon-mobil,
 .link:focus .icon-mail,
 .link:focus .icon-mobil {
-    fill: var(--logo-blue-color);
+    fill: $blue-color;
 }
 
 .head__list {
@@ -118,6 +118,6 @@
 }
 
 .border-head {
-    background-color: var(--white-color);
+    background-color: $white-color;
     border-bottom: 1px solid #ECECEC;
 }

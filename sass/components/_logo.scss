@@ -7,12 +7,12 @@
     letter-spacing: 0.03em;
 }
 .logo--blue {
-    color: var(--logo-blue-color);
+    color: $blue-color;
 }
 
 .logo--black {
-    color: var(--logo-black-color);
+    color: $black-logo-color;
 }
 .logo--white {
-    color: var(--white-color);
+    color: $white-color;
 }

@@ -9,7 +9,7 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--title-color);
+    color: $title-color;
 
     margin: 0;
     margin-bottom: 50px;
@@ -24,11 +24,11 @@
 }
 
 .client__icon {
-    fill: var(--icon-color);
+    fill: $icon-bg-color;
     width: 106px;
     height: 60px;
 
-    transition: fill 250ms var(--time-function);
+    transition: fill 250ms $time-function;
 }
 
 .client__link {
@@ -41,16 +41,16 @@
     justify-content: center;
     border-radius: 4px;
 
-    transition: border-color 250ms var(--time-function);
+    transition: border-color 250ms $time-function;
 }
 .client__link:hover,
 .client__link:focus {
-    border-color: var(--logo-blue-color);
+    border-color: $blue-color;
 }
 
 .client__link:hover .client__icon,
 .client__link:focus .client__icon {
-    fill: var(--logo-blue-color);
+    fill: $blue-color;
 }
 
 .client__list:not(:last-child) {

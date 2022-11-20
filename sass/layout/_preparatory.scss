@@ -19,7 +19,7 @@
 }
 body {
     font-family: Roboto, sans-serif;
-    color: var(--text-color);
+    color: $text-color;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -36,7 +36,7 @@ address {
 }
 
 .site-nav .link.current {
-    color: var(--logo-blue-color);
+    color: $blue-color;
 }
 .visually-hidden {
     position: absolute;

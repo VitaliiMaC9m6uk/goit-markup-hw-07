@@ -24,6 +24,7 @@
     padding-right: 8px;
 }
 .button-port {
+    font-family: $font-roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -34,12 +35,12 @@
 
     border-radius: 4px;
     border-color: transparent;
-    font-family: Roboto, sans-serif;
+    
     cursor: pointer;
 
-    transition: color 250ms var(--time-function),
-        background-color 250ms var(--time-function),
-        box-shadow 250ms var(--time-function);
+    transition: color 250ms $time-function,
+        background-color 250ms $time-function,
+        box-shadow 250ms $time-function;
 }
 .collection__list {
     display: flex;
@@ -47,7 +48,7 @@
     gap: 30px;
 }
 .collection__link {
-    transition: box-shadow 250ms var(--time-function);
+    transition: box-shadow 250ms $time-function;
 }
 
 .collection__link:hover,
@@ -67,8 +68,8 @@
 .collection__link:hover .collection__description,
 .collection__link:focus .collection__description {
     opacity: 1;
-    transition: opacity 250ms var(--time-function),
-        transform 250ms var(--time-function);
+    transition: opacity 250ms $time-function,
+        transform 250ms $time-function;
     transform: translateY(0);
     /* transform: rotate(0deg); */
 
@@ -108,7 +109,7 @@
     color: #FFFFFF;
 }
 .collection__title {
-    color: var(--title-color);
+    color: $title-color;
     font-size: 18px;
     line-height: 2;
 
@@ -118,7 +119,7 @@
 }
 
 .collection__text {
-    color: var(--text-color);
+    color: $text-color;
     font-size: 16px;
     line-height: 1.9;
 

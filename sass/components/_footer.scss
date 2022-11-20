@@ -1,18 +1,18 @@
 .bg-footer {
-    background-color: var(--bg-color);
+    background-color: $bg-color;
 
     padding-top: 60px;
     padding-bottom: 60px;
 }
 
 .adress-footer {
-    color: var(--white-color);
+    color: $white-color;
     line-height: 1.71;
 }
 
 .mail-footer,
 .tel-footer {
-    color: var(--footer-mail);
+    color: $footer-mail-color;
     line-height: 1.71;
 }
 
@@ -34,7 +34,7 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--white-color);
+    color: $white-color;
 
     margin: 0 0 20px 0;
 }
@@ -96,8 +96,8 @@
     line-height: 1.88;
     letter-spacing: 0.06em;
 
-    color: #FFFFFF;
-    background: #2196F3;
+    color: $white-color;
+    background: $blue-color;
 
     width: 200px;
     height: 50px;
@@ -115,7 +115,7 @@
 .icon-send {
     height: 24px;
     width: 24px;
-    fill: #FFFFFF;
+    fill: $white-color;
     margin-left: 10px;
 }
 

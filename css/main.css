@@ -284,20 +284,20 @@ summary {
 }
 
 .logo--blue {
-  color: var(--logo-blue-color);
+  color: #2196F3;
 }
 
 .logo--black {
-  color: var(--logo-black-color);
+  color: #000000;
 }
 
 .logo--white {
-  color: var(--white-color);
+  color: #FFFFFF;
 }
 
 .logo,
 .logo-footer {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -312,11 +312,11 @@ summary {
 }
 
 .logo--blue {
-  color: var(--logo-blue-color);
+  color: #2196F3;
 }
 
 .logo--black {
-  color: var(--logo-black-color);
+  color: #000000;
 }
 
 .site-nav .head__link:not(:last-child) {
@@ -339,25 +339,25 @@ summary {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background-color: var(--logo-blue-color);
+  background-color: #2196F3;
 }
 
 .mail-link,
 .tel-link,
 .site-nav .link {
-  color: var(--text-color);
+  color: #757575;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-  -webkit-transition: color 250ms var(--time-function);
-  transition: color 250ms var(--time-function);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-nav .link {
-  color: var(--title-color);
+  color: #212121;
 }
 
 .head__list .head__mail:not(:last-child) {
@@ -378,9 +378,9 @@ summary {
   height: 12px;
   width: 16px;
   margin-right: 10px;
-  fill: var(--text-color);
-  -webkit-transition: fill 250ms var(--time-function);
-  transition: fill 250ms var(--time-function);
+  fill: #757575;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-mobil {
@@ -390,14 +390,14 @@ summary {
 
 .link:hover,
 .link:focus {
-  color: var(--logo-blue-color);
+  color: #2196F3;
 }
 
 .link:hover .icon-mail,
 .link:hover .icon-mobil,
 .link:focus .icon-mail,
 .link:focus .icon-mobil {
-  fill: var(--logo-blue-color);
+  fill: #2196F3;
 }
 
 .head__list {
@@ -425,24 +425,24 @@ summary {
 }
 
 .border-head {
-  background-color: var(--white-color);
+  background-color: #FFFFFF;
   border-bottom: 1px solid #ECECEC;
 }
 
 .bg-footer {
-  background-color: var(--bg-color);
+  background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
 }
 
 .adress-footer {
-  color: var(--white-color);
+  color: #FFFFFF;
   line-height: 1.71;
 }
 
 .mail-footer,
 .tel-footer {
-  color: var(--footer-mail);
+  color: rgba(255, 255, 255, 0.6);
   line-height: 1.71;
 }
 
@@ -465,7 +465,7 @@ summary {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: #FFFFFF;
   margin: 0 0 20px 0;
 }
 
@@ -613,7 +613,7 @@ summary {
 
 body {
   font-family: Roboto, sans-serif;
-  color: var(--text-color);
+  color: #757575;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -630,7 +630,7 @@ address {
 }
 
 .site-nav .link.current {
-  color: var(--logo-blue-color);
+  color: #2196F3;
 }
 
 .visually-hidden {
@@ -653,7 +653,7 @@ img {
 }
 
 .service__titel {
-  color: var(--white-color);
+  color: #FFFFFF;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -692,12 +692,12 @@ img {
   margin: 0 auto;
   min-width: 216px;
   height: 50px;
-  background-color: var(--logo-blue-color);
-  color: var(--white-color);
+  background-color: #2196F3;
+  color: #FFFFFF;
   border-color: transparent;
   border-radius: 4px;
   cursor: pointer;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -726,7 +726,7 @@ img {
 .features__icon-border {
   border: none;
   border-radius: 4px;
-  background-color: var(--button-bg-port);
+  background-color: #F5F4FA;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -742,7 +742,7 @@ img {
 
 .list .title,
 .features__title {
-  color: var(--title-color);
+  color: #212121;
   line-height: 1.14;
   letter-spacing: 0.03em;
   margin-top: 0;
@@ -758,14 +758,12 @@ img {
   width: 270px;
 }
 
-.work,
-.team {
+.work {
   padding-bottom: 94px;
 }
 
-.work__title,
-.team__title {
-  color: var(--title-color);
+.work__title {
+  color: #212121;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -809,22 +807,16 @@ img {
   width: 100%;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
-  color: var(--white-color);
+  color: #FFFFFF;
 }
 
 .team {
   background-color: #F5F4FA;
   padding-top: 94px;
-}
-
-.work,
-.team {
   padding-bottom: 94px;
 }
-
-.work__title,
 .team__title {
-  color: var(--title-color);
+  color: #212121;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -832,7 +824,6 @@ img {
   margin-top: 0;
   margin-bottom: 50px;
 }
-
 .team__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -841,35 +832,30 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
-.one-of-team {
-  background-color: var(--white-color);
-  border-radius: 0px 0px 4px 4px;
-  -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-
 .team__information {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-
 .team__text {
   margin-bottom: 16px;
 }
-
-.team__text,
-.team__name {
+.team__text, .team__name {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
 }
-
 .team__name {
-  color: var(--title-color);
+  color: #212121;
   font-weight: 500;
   margin-bottom: 10px;
+}
+
+.one-of-team {
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .action {
@@ -904,13 +890,13 @@ img {
 .icon-footer {
   height: 20px;
   width: 20px;
-  fill: var(--white-color);
+  fill: #FFFFFF;
 }
 
 .icon-social {
-  fill: var(--icon-color);
-  -webkit-transition: fill 250ms var(--time-function);
-  transition: fill 250ms var(--time-function);
+  fill: #AFB1B8;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-icon,
@@ -929,8 +915,8 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-transition: background-color 250ms var(--time-function);
-  transition: background-color 250ms var(--time-function);
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client {
@@ -944,7 +930,7 @@ img {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-color);
+  color: #212121;
   margin: 0;
   margin-bottom: 50px;
   padding: 0;
@@ -960,11 +946,11 @@ img {
 }
 
 .client__icon {
-  fill: var(--icon-color);
+  fill: #AFB1B8;
   width: 106px;
   height: 60px;
-  -webkit-transition: fill 250ms var(--time-function);
-  transition: fill 250ms var(--time-function);
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client__link {
@@ -981,18 +967,18 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   border-radius: 4px;
-  -webkit-transition: border-color 250ms var(--time-function);
-  transition: border-color 250ms var(--time-function);
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client__link:hover,
 .client__link:focus {
-  border-color: var(--logo-blue-color);
+  border-color: #2196F3;
 }
 
 .client__link:hover .client__icon,
 .client__link:focus .client__icon {
-  fill: var(--logo-blue-color);
+  fill: #2196F3;
 }
 
 .client__list:not(:last-child) {
@@ -1009,10 +995,10 @@ img {
   opacity: 1;
   -webkit-transform: scale(1);
           transform: scale(1);
-  -webkit-transition: opacity 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: opacity 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: opacity 250ms var(--time-function), transform 250ms var(--time-function);
-  transition: opacity 250ms var(--time-function), transform 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -1081,7 +1067,7 @@ img {
 
 .btn-close:hover .icon-close,
 .btn-close:focus .icon-close {
-  fill: var(--logo-blue-color);
+  fill: #2196F3;
 }
 
 .titel-modal {
@@ -1123,7 +1109,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   resize: none;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1136,7 +1122,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 42px;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1148,7 +1134,7 @@ img {
 }
 
 .input-form:focus + .icon-form {
-  fill: var(--logo-blue-color);
+  fill: #2196F3;
 }
 
 .icon-form {
@@ -1193,7 +1179,7 @@ img {
 }
 
 .checkbox {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1234,6 +1220,7 @@ img {
 }
 
 .button-port {
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1243,12 +1230,11 @@ img {
   border: none;
   border-radius: 4px;
   border-color: transparent;
-  font-family: Roboto, sans-serif;
   cursor: pointer;
-  -webkit-transition: color 250ms var(--time-function), background-color 250ms var(--time-function), -webkit-box-shadow 250ms var(--time-function);
-  transition: color 250ms var(--time-function), background-color 250ms var(--time-function), -webkit-box-shadow 250ms var(--time-function);
-  transition: color 250ms var(--time-function), background-color 250ms var(--time-function), box-shadow 250ms var(--time-function);
-  transition: color 250ms var(--time-function), background-color 250ms var(--time-function), box-shadow 250ms var(--time-function), -webkit-box-shadow 250ms var(--time-function);
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .collection__list {
@@ -1261,10 +1247,10 @@ img {
 }
 
 .collection__link {
-  -webkit-transition: -webkit-box-shadow 250ms var(--time-function);
-  transition: -webkit-box-shadow 250ms var(--time-function);
-  transition: box-shadow 250ms var(--time-function);
-  transition: box-shadow 250ms var(--time-function), -webkit-box-shadow 250ms var(--time-function);
+  -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .collection__link:hover,
@@ -1285,10 +1271,10 @@ img {
 .collection__link:hover .collection__description,
 .collection__link:focus .collection__description {
   opacity: 1;
-  -webkit-transition: opacity 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: opacity 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
-  transition: opacity 250ms var(--time-function), transform 250ms var(--time-function);
-  transition: opacity 250ms var(--time-function), transform 250ms var(--time-function), -webkit-transform 250ms var(--time-function);
+  -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), transform 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   -webkit-transform: translateY(0);
           transform: translateY(0);
   /* transform: rotate(0deg); */
@@ -1332,7 +1318,7 @@ img {
 }
 
 .collection__title {
-  color: var(--title-color);
+  color: #212121;
   font-size: 18px;
   line-height: 2;
   margin-top: 20px;
@@ -1341,7 +1327,7 @@ img {
 }
 
 .collection__text {
-  color: var(--text-color);
+  color: #757575;
   font-size: 16px;
   line-height: 1.9;
   margin-top: 0;
