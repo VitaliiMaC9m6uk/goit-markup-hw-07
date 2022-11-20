@@ -662,7 +662,6 @@ img {
   margin-top: 0;
   margin-bottom: 30px;
 }
-
 .service__block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -672,7 +671,6 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .service__bg {
   max-width: 1600px;
   margin-left: auto;
@@ -686,7 +684,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .service__button {
   display: inline-block;
   margin: 0 auto;
