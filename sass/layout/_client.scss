@@ -1,9 +1,8 @@
 .client {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
+  padding-top: 94px;
+  padding-bottom: 94px;
 
-.client__title {
+  &__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -14,26 +13,26 @@
     margin: 0;
     margin-bottom: 50px;
     padding: 0;
+  }
 
-}
-.client__action {
+  &__action {
     display: flex;
     padding: 0;
     margin: 0;
     list-style: none;
-}
+  }
 
-.client__icon {
+  &__icon {
     fill: $icon-bg-color;
     width: 106px;
     height: 60px;
 
     transition: fill 250ms $time-function;
-}
+  }
 
-.client__link {
+  &__link {
     display: flex;
-    border: 1px solid #AFB1B8;
+    border: 1px solid #afb1b8;
     height: 92px;
     width: 170px;
 
@@ -42,17 +41,19 @@
     border-radius: 4px;
 
     transition: border-color 250ms $time-function;
-}
-.client__link:hover,
-.client__link:focus {
+  }
+
+  &__link:hover,
+  &__link:focus {
     border-color: $blue-color;
-}
+  }
 
-.client__link:hover .client__icon,
-.client__link:focus .client__icon {
+  &__link:hover &__icon,
+  &__link:focus &__icon {
     fill: $blue-color;
-}
+  }
 
-.client__list:not(:last-child) {
+  &__list:not(:last-child) {
     margin-right: 30px;
+  }
 }
