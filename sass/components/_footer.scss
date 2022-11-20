@@ -1,4 +1,4 @@
-.bg-footer {
+.footer__bg {
     background-color: $bg-color;
 
     padding-top: 60px;
@@ -19,12 +19,6 @@
 .mail-footer {
     display: inline-block;
 }
-
-.logo-footer {
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
 .bg-footer .mail:not(:last-child) {
     margin-bottom: 9px;
 }

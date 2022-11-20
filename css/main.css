@@ -281,52 +281,73 @@ summary {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
-
 .logo--blue {
   color: #2196F3;
 }
-
 .logo--black {
   color: #000000;
 }
-
 .logo--white {
   color: #FFFFFF;
 }
-
-.logo,
-.logo-footer {
+.logo__footer {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-.logo {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.logo--blue {
-  color: #2196F3;
-}
-
-.logo--black {
-  color: #000000;
-}
-
-.site-nav .head__link:not(:last-child) {
-  margin-right: 50px;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
 .head__link {
   position: relative;
   padding: 0;
   margin: 0;
+}
+.head__list .head__mail:not(:last-child) {
+  margin-right: 50px;
+}
+.head__list .head__mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.head__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.head__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.head__link:not(:last-child) {
+  margin-right: 50px;
+}
+.head__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.head__border {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .link.current::after {
@@ -360,19 +381,6 @@ summary {
   color: #212121;
 }
 
-.head__list .head__mail:not(:last-child) {
-  margin-right: 50px;
-}
-
-.head__list .head__mail {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .icon-mail,
 .icon-mobil {
   height: 12px;
@@ -400,36 +408,7 @@ summary {
   fill: #2196F3;
 }
 
-.head__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.container-head {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.head__logo {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.border-head {
-  background-color: #FFFFFF;
-  border-bottom: 1px solid #ECECEC;
-}
-
-.bg-footer {
+.footer__bg {
   background-color: #2F303A;
   padding-top: 60px;
   padding-bottom: 60px;
@@ -448,11 +427,6 @@ summary {
 
 .mail-footer {
   display: inline-block;
-}
-
-.logo-footer {
-  display: inline-block;
-  margin-bottom: 20px;
 }
 
 .bg-footer .mail:not(:last-child) {
