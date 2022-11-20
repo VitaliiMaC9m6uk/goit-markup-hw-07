@@ -761,7 +761,6 @@ img {
 .work {
   padding-bottom: 94px;
 }
-
 .work__title {
   color: #212121;
   font-size: 36px;
@@ -771,7 +770,6 @@ img {
   margin-top: 0;
   margin-bottom: 50px;
 }
-
 .work__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -780,11 +778,9 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
 .work__list-icon {
   position: relative;
 }
-
 .work__description {
   display: -webkit-box;
   display: -ms-flexbox;
