@@ -168,7 +168,7 @@
         border: none;
         cursor: pointer;
         }
-    &__checkbox {
+    &__checkbox-label {
         font-family: $font-roboto;
         font-style: normal;
         font-weight: 400;
@@ -176,17 +176,30 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         }
+    
     &__link {
         color: rgba(33, 150, 243, 1);
-}
-}
+    }
+    &__checkbox-icon{
+        display: inline-block;
+        width: 16px;
+        height: 15px;
+        border:2px solid #212121;
+        border-radius: 4px;
+        margin-right: 7px;
+    }
+    &__checkbox:checked + &__checkbox-icon{        
+        background-color: $blue-color;
+        background-image: url(../images/icon-check-1.svg);
+        background-size: contain;  
+        background-repeat: no-repeat;
+        background-position: center;      
+        border-color: transparent;        
+        background-origin: border-box;
+    }
+    &__checkbox{
+        appearance: none;
 
-
-
-
-
-
-
-
-
-
+        position: absolute;
+    }
+}   

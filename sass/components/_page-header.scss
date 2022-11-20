@@ -1,4 +1,7 @@
 .head{
+    background-color: $white-color;
+    border-bottom: 1px solid #ECECEC;
+
     &__link {
     position: relative;
 
@@ -27,10 +30,7 @@
     display: flex;
     justify-content: space-between;
     }
-    &__border {
-    background-color: $white-color;
-    border-bottom: 1px solid #ECECEC;
-    }
+    
 }
 .link.current::after {
     content: "";
@@ -54,7 +54,8 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
 
-    display: block;
+    display: flex;
+    align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
 
